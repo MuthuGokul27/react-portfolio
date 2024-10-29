@@ -1,4 +1,10 @@
+import About from "./Components/About"
+import ContactUs from "./Components/ContactUs"
+import Experiance from "./Components/Experience"
+import Hero from "./Components/Hero"
 import Navbar from "./Components/Navbar"
+import Projects from "./Components/Projects"
+import Technologies from "./Components/Technologies"
 
 function App() {
 
@@ -11,6 +17,12 @@ function App() {
       </div>
     <div className="container mx-auto px-8 ">
       <Navbar />
+      <Hero />
+      <About />
+      <Technologies />
+      <Experiance />
+      <Projects />
+      <ContactUs />
     </div>
     </div>
       
